@@ -1,0 +1,52 @@
+{
+  "name": "arbitrage-frontend",
+  "version": "0.1.0",
+  "description": "Arbitrage project frontend part",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/server.js --ignore components"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/darqube/darqube_frontend.git"
+  },
+  "author": "Anvar Zakirov <anvarzkr@gmail.com>",
+  "license": "",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.13.4",
+    "file-saver": "^1.3.3",
+    "fontawesome": "^4.7.2",
+    "lodash": "^4.17.4",
+    "node": "^8.3.0",
+    "nodemon": "^1.11.0",
+    "npm": "^5.4.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.1",
+    "uuid": "^3.1.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.6.4"
+  },
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-minify": "^0.2.0",
+    "compression-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "webpack": "^1.15.0"
+  }
+}

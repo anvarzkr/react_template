@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  /*font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Ubuntu';
+  /* background: url('../images/blur-bg.jpg'); */
+  /* background-position: center; */
+}
+
+a {
+  /* color: #000; */
+}
+a:hover {
+  /* color: rgb(0, 104, 180); */
+  text-decoration: none;
+}
